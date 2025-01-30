@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#toggle-btn{
+    width: 300px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    border: solid 1px;
+}
+#container{
+    border: solid 1px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr;
+}
